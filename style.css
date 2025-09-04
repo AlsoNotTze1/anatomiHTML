@@ -1,4 +1,36 @@
 /* semua elemen span*/
+* html {
+    padding: 0;
+    margin: 8;
+}
+.Header {
+    display: flex;
+    justify-content: center;
+    /* "Masukan teks" */
+    flex-direction: column;
+    align-items: center;
+    /* aduh */
+    background-color: red;
+    color: #fff;
+    padding: 18px;
+    gap: 5px;
+}
 span {
-    color: rgb(13, 216, 252);
+    color: rgb(100, 93, 39);
+}
+a {
+  text-decoration-line: none;
+  font-size: 24px; 
+  border:  2px solid;
+  color: red;
+}
+
+a:hover {
+    color:chocolate;
+    color: rgb(81, 9, 9);
+    font-family: Bold;
+}
+
+h2 {
+    color: rgb(236, 9, 9);
 }
